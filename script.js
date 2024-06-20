@@ -41,8 +41,7 @@ const correctAnswers = ['a', 'b', 'c', 'd', /* add the rest of the correct answe
             window.location.href = `mailto:${adminEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
             // Show confirmation to student
-            alert('Shullian Stitches & Couture has submitted.
-     `Student ${name} with matric number ${matricNumber} and ${email} has submitted the exam.'             Candidate ${name} will receive results shortly.');
+            alert('Shullian Stitches & Couture has submitted. Candidate will receive results shortly.');
         }
 
         function unlockExam() {
