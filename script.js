@@ -35,7 +35,7 @@ const correctAnswers = ['a', 'b', 'c', 'd', 'c', 'a', 'c', 'b','c', 'a', 'a', 'a
             const phone = formData.get('phone');
             const adminEmail = 'mondaykingsley80@gmail.com';
             const subject = 'New Exam Submission';
-            const body = `Student ${name} with matric number ${matricNumber} and ${email} has submitted the exam.\nScore: ${score}/100`;
+            const body = `Student ${name} with matric number ${matricNumber} and ${email} has submitted the exam.\nScore: ${score}*2/100`;
 
             // Send email to admin
             window.location.href = `mailto:${adminEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
