@@ -1,4 +1,4 @@
-const correctAnswers = ['a', 'b', 'c', 'd', /* add the rest of the correct answers here */];
+const correctAnswers = ['a', 'b', 'c', 'd', 'c', 'a', 'c', 'b','c', 'a', 'a', 'a','b', 'b', 'a', 'a', 'b', 'a', 'b', 'a', 'b', 'c', 'b', 'a', 'a', 'c', 'b', 'b', 'c', 'c', 'c', 'a', 'b', 'b', 'b', 'd', 'a', 'a', 'b', 'b', 'b', 'b', 'b', 'a', 'c', 'c', 'a', 'a', 'c', 'c',/* add the rest of the correct answers here */];
         const examPasscode = 'exam2024'; // Define the passcode here
 
         function startExam() {
