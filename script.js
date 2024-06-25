@@ -25,7 +25,7 @@ const correctAnswers = ['a', 'b', 'c', 'd', 'c', 'a', 'c', 'b','c', 'a', 'a', 'a
             const form = document.getElementById('examForm');
             const formData = new FormData(form);
             const answers = [];
-            for (let i = 1; i <= 100; i++) {
+            for (let i = 1; i <= 50; i++) {
                 answers.push(formData.get('q' + i));
             }
             const score = calculateScore(answers);
@@ -35,7 +35,7 @@ const correctAnswers = ['a', 'b', 'c', 'd', 'c', 'a', 'c', 'b','c', 'a', 'a', 'a
             const phone = formData.get('phone');
             const adminEmail = 'mondaykingsley80@gmail.com';
             const subject = 'New Exam Submission';
-            const body = `Student ${name} with matric number ${matricNumber} and ${email} has submitted the exam.\nScore: ${score}*2/100`;
+            const body = `Student ${name} with matric number ${matricNumber} and ${email} has submitted the exam.\nScore: ${score}/50`;
 
             // Send email to admin
             window.location.href = `mailto:${adminEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
